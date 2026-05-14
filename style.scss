@@ -2,7 +2,7 @@
     margin: 0px;
     list-style: none;
     font-family: sans-serif;
-    max-width: 1200px;
+    max-width: 1550px;
     margin: auto;
     box-sizing: border-box;
 }
@@ -84,9 +84,21 @@ gap: 40px;
   }
   .women{
     width: 350px;
-    margin-left: 800px;
-    margin-top: -700px;
+    margin-left: 1000px;
+     margin-top: -410px;
     
+    
+}
+.men{
+    width: 600px;
+     margin-left: 600px;
+    margin-top: -350px;
+   
+}
+.footer{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
 }
 
 @media (max-width: 510px) {
@@ -109,7 +121,7 @@ gap: 40px;
     }
     .textleft{
         margin-left: 0px !important;
-        padding-top: ;
+        
     }
     .lab{
         padding-left: 3px;
@@ -118,5 +130,14 @@ gap: 40px;
     .women{
         display: none;
     }
+.men{
+    display: none;
+}
+.tel{
+    height: 330px !important;
+}
+   .footer{
+    height: 1100px;
+   }
 }
 
