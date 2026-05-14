@@ -35,7 +35,7 @@
   display: none;
 }
 
-.medic {
+h1 {
   text-align: center;
   margin-top: 40px;
 }
@@ -48,6 +48,20 @@
 }
 
 .Cards {
+  gap: 40px;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Card1 {
+  box-shadow: 0px 0px 10px;
+  width: 210px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.Cards1 {
   gap: 40px;
   margin-top: 40px;
   display: flex;
