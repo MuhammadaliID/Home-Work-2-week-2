@@ -4,6 +4,7 @@
     font-family: sans-serif;
     max-width: 1200px;
     margin: auto;
+    box-sizing: border-box;
 }
 
 .header{
@@ -41,6 +42,7 @@ h1{
 }
 
 
+
 .Card{
 box-shadow: 0px 0px 10px;
 width: 300px;
@@ -67,6 +69,26 @@ gap: 40px;
   flex-wrap: wrap;
   }
 
+  .lab{
+    background-color: rgba(39, 39, 39, 1);
+    width: 100% !important;
+    margin-top: 50px;
+   padding-left: 30px;
+   padding-top: 50px;
+  }
+  .text{
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+  }
+  .women{
+    width: 350px;
+    margin-left: 800px;
+    margin-top: -700px;
+    
+}
+
 @media (max-width: 510px) {
     .header{
         display: none;
@@ -84,6 +106,17 @@ gap: 40px;
         display: block;
         margin-left: 5px;
         margin-top: 20px;
+    }
+    .textleft{
+        margin-left: 0px !important;
+        padding-top: ;
+    }
+    .lab{
+        padding-left: 3px;
+        padding-top: 10px !important;
+    }
+    .women{
+        display: none;
     }
 }
 
